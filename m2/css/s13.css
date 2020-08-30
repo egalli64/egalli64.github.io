@@ -1,0 +1,40 @@
+#liDisc {
+    list-style-type: disc;
+}
+
+#liCircle {
+    list-style-type: circle;
+}
+
+#liSquare {
+    list-style-type: square;
+}
+
+#liNone {
+    list-style-type: none;
+}
+
+#liDecimal {
+    list-style-type: decimal;
+}
+
+#liDecimalZero {
+    list-style-type: decimal-leading-zero;
+}
+
+#liLowerRoman {
+    list-style-type: lower-roman;
+}
+
+#liLowerAlpha {
+    list-style-type: lower-alpha;
+}
+
+.redBox {
+    border: 1px solid red;
+}
+
+.insideBox {
+    border: 1px solid blue;
+    list-style-position: inside;
+}
