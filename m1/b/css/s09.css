@@ -1,0 +1,13 @@
+div {
+    background-color: lightskyblue;
+}
+
+#hello {
+    margin-top: 10px;
+    margin-bottom: 30px;
+    border-width: 5px;
+    border-style: solid;
+    padding-left: 10px;
+    padding-top: 30px;
+    background-color: aqua;
+}

@@ -3,9 +3,19 @@
  */
 
 document.getElementById('second').onsubmit = () => {
-    if (document.getElementById('y').value.length == 0) {
-        console.log('y is empty!')
-        return false;
+    // check in a verbose way
+    let y = document.getElementById('y');
+    let text = y.value;
+
+    if (text.length > 2) {
+        return true;
     }
-    return true;
+
+    // !!! same code as above, just more compact !!!
+    if (document.getElementById('y').value.length > 2) {
+        return true;
+    }
+
+    console.log('y is too short!')
+    return false;
 };

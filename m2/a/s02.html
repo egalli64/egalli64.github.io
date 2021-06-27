@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <title>Lists (styled)</title>
+    <link rel="stylesheet" type="text/css" href="css/s02.css">
+</head>
+
+<body>
+    <header>
+        <h1>Lists (styled)</h1>
+    </header>
+    <nav>
+        Back <a href="..">home</a>
+    </nav>
+
+    <h2>An ordered list</h2>
+    <ol>
+        <li>Default list-style-type</li>
+        <li id="liDecimal">decimal</li>
+        <li id="liDecimalZero">decimal-leading-zero</li>
+        <li id="liLowerRoman">lower-roman</li>
+        <li id="liLowerAlpha">lower-alpha</li>
+    </ol>
+
+    <h2>The start and reversed attributes</h2>
+    <ol start="3" reversed>
+        <li>Bronze</li>
+        <li>Silver</li>
+        <li>Gold</li>
+    </ol>
+
+    <h2>An unordered list</h2>
+    <ul>
+        <li>Default list-style-type</li>
+        <li id="liDisc">disc</li>
+        <li id="liCircle">circle</li>
+        <li id="liSquare">square</li>
+        <li id="liNone">none</li>
+    </ul>
+
+    <h2>A definition list</h2>
+    <dl>
+        <dt>Instance method</dt>
+        <dd>A class function that refers to an actual object</dd>
+        <dt>Class method</dt>
+        <dt>Static method</dt>
+        <dd>A function that refer to the class itself, not to an instance of it</dd>
+    </dl>
+
+    <h2>A nested list</h2>
+    <ul>
+        <li>Something</li>
+        <li>Something else in four steps:
+            <ol>
+                <li>One</li>
+                <li>Two</li>
+                <li>Three</li>
+                <li>Four</li>
+            </ol>
+        </li>
+        <li>And something more</li>
+    </ul>
+
+    <h2>Positioning</h2>
+
+    <ul class="redBox">
+        <li>one</li>
+        <li class="insideBox">A list item with list-style-position inside</li>
+        <li>three</li>
+        <li class="redBox">four</li>
+        <li>five</li>
+        <li>six</li>
+    </ul>
+
+</body>
+
+</html>

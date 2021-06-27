@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <title>Tables (styled)</title>
+    <link rel="stylesheet" type="text/css" href="css/s04.css">
+</head>
+
+<body>
+    <header>
+        <h1>Tables (styled)</h1>
+    </header>
+    <nav>
+        Back <a href="..">home</a>
+    </nav>
+
+    <h2>Basics</h2>
+    <table>
+        <caption>Elements table, tr, td, ...</caption>
+        <thead>
+            <tr>
+                <th scope="row">\</th>
+                <th scope="col">Left</th>
+                <th scope="col">Center</th>
+                <th scope="col">Right</th>
+            </tr>
+        </thead>
+        <tr>
+            <th scope="row">Top</th>
+            <td>7</td>
+            <td>8</td>
+            <td>9</td>
+        </tr>
+        <tr>
+            <th scope="row">Center</th>
+            <td>5</td>
+            <td>6</td>
+            <td>7</td>
+        </tr>
+        <tr>
+            <th scope="row">Low</th>
+            <td>1</td>
+            <td>2</td>
+            <td>3</td>
+        </tr>
+    </table>
+
+    <h2>Spanning on more columns</h2>
+    <table>
+        <caption>The colspan attribute</caption>
+        <thead>
+            <tr>
+                <th scope="col">Day\Time</th>
+                <th scope="col">9-11</th>
+                <th scope="col">11-13</th>
+                <th scope="col">14-16</th>
+                <th scope="col">16-18</th>
+            </tr>
+        </thead>
+        <tr>
+            <th scope="row">Monday</th>
+            <td colspan="2">SQL</td>
+            <td>Exercise</td>
+            <td>JDBC</td>
+        </tr>
+        <tr>
+            <th scope="row">Tuesday</th>
+            <td colspan="3">HTML</td>
+            <td>Exercise</td>
+        </tr>
+    </table>
+
+    <h2>Spanning on more rows</h2>
+    <table>
+        <caption>The rowspan attribute</caption>
+        <thead>
+            <tr>
+                <th scope="col">Time\Room</th>
+                <th scope="col">1</th>
+                <th scope="col">2</th>
+                <th scope="col">3</th>
+            </tr>
+        </thead>
+        <tr>
+            <th scope="row">9-11</th>
+            <td rowspan="2">Java</td>
+            <td>HTML</td>
+            <td>SQL</td>
+        </tr>
+        <tr>
+            <th scope="row">11-13</th>
+            <td>Spring</td>
+            <td>CSS</td>
+        </tr>
+    </table>
+
+
+    <h2>The three table sections</h2>
+    <table>
+        <caption>Elements thead, tbody, tfoot</caption>
+        <thead>
+            <tr>
+                <th scope="col">Date</th>
+                <th scope="col">Input</th>
+                <th scope="col">Output</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <th scope="row">1st January</th>
+                <td>12</td>
+                <td>42</td>
+            </tr>
+            <tr>
+                <th scope="row">2nd January</th>
+                <td>32</td>
+                <td>21</td>
+            </tr>
+            <tr>
+                <th scope="row">...</th>
+                <td>...</td>
+                <td>...</td>
+            </tr>
+            <tr>
+                <th scope="row">31st January</th>
+                <td>80</td>
+                <td>120</td>
+            </tr>
+        </tbody>
+        <tfoot>
+            <tr>
+                <th scope="row">Total</th>
+                <td>4010</td>
+                <td>8020</td>
+            </tr>
+        </tfoot>
+    </table>
+</body>
+
+</html>

@@ -1,0 +1,81 @@
+body {
+    background-color: gray;
+}
+
+p {
+    font-family: fantasy;
+}
+
+#special {
+    color: violet;
+}
+
+h1, h2, h3 {
+    color: yellow;
+}
+
+.myClass {
+    font-style: italic;
+}
+
+p.myClass {
+    color: blue;
+}
+
+#paragraphId {
+    color: red;
+}
+
+#blockId {
+    border: 3px solid #ff8000;
+    background-color: #ffff80;
+}
+
+.boldCls {
+    font-weight: bold;
+}
+
+.itaCls {
+    font-style: italic;
+}
+
+.upperCls {
+    text-transform: uppercase;
+}
+
+#bordered {
+    border: black ridge;
+}
+
+#interesting + p {
+    color: blue;
+}
+
+#interesting ~ p {
+    font-style: italic;
+}
+
+article:hover {
+    background-color: lightgreen;
+}
+
+div span {
+    background-color: yellow;
+}
+
+div>span {
+    text-decoration: underline;
+}
+
+[type=text] {
+    background-color: olive;
+}
+
+[type=number] {
+    background-color: yellow;
+}
+
+input:hover {
+    color: blue;
+    font-weight: bold;
+}
